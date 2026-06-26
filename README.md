@@ -1,79 +1,77 @@
-````markdown
 # 🧾 GST Billing Software
 
 A modern **GST-compliant Billing & Invoice Management System** built with **Node.js, React, TypeScript, and Tailwind CSS**. Easily manage customers, products, invoices, and taxes with automatic **CGST, SGST, and IGST** calculations. Designed to work completely offline on your local network with a professional, responsive interface.
 
 ---
 
-# ✨ Features
+## ✨ Features
 
 ### 👥 Customer Management
 
-- Add, edit and delete customers
-- GSTIN tracking
-- Customer search
-- Address & contact management
+* Add, edit and delete customers
+* GSTIN tracking
+* Customer search
+* Address & contact management
 
 ### 📦 Product Management
 
-- Product catalog
-- HSN/SAC Codes
-- Retail & Wholesale Pricing
-- GST Percentage
-- Stock Details
+* Product catalog
+* HSN/SAC code management
+* Retail & Wholesale pricing
+* GST percentage configuration
+* Stock details management
 
 ### 🧾 Invoice Generator
 
-- Professional GST Invoice
-- Automatic Bill Numbers
-- Custom Bill Prefix
-- Live GST Calculation
-- Printable A4 Invoice
-- Invoice History
+* Professional GST invoice creation
+* Automatic bill number generation
+* Custom bill number prefix
+* Live GST calculation
+* Printable A4 invoice
+* Invoice history
 
 ### 💰 GST Calculation
 
-- Automatic CGST
-- Automatic SGST
-- Automatic IGST
-- Intrastate Detection
-- Interstate Detection
-- Grand Total Calculation
+* Automatic CGST calculation
+* Automatic SGST calculation
+* Automatic IGST calculation
+* Intrastate billing detection
+* Interstate billing detection
+* Grand total calculation
 
 ### 📊 Dashboard
 
-- Sales Overview
-- Recent Invoices
-- Revenue Statistics
-- Customer Count
-- Product Count
-- Business Analytics
+* Sales overview
+* Revenue statistics
+* Recent invoices
+* Customer count
+* Product count
+* Business analytics
 
 ### 🌐 Offline Ready
 
-- Local Storage
-- Works Without Internet
-- LAN Access
-- Mobile Friendly
-- Tablet Support
+* Local data storage
+* No internet required
+* Local network access
+* Mobile friendly
+* Tablet support
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 
-- **Node.js**
-- **Express.js**
-- **React 18**
-- **TypeScript**
-- **Tailwind CSS**
-- **Shadcn UI**
-- **TanStack Query**
-- **Zod**
-- **Vite**
+* **Node.js**
+* **Express.js**
+* **React 18**
+* **TypeScript**
+* **Tailwind CSS**
+* **Shadcn UI**
+* **TanStack Query**
+* **Zod**
+* **Vite**
 
 ---
 
-````markdown
 ## 📂 Project Structure
 
 ```text
@@ -130,21 +128,21 @@ gst-billing/
 
 ---
 
-# ⚙️ Installation
+## ⚙️ Installation
 
-## 1️⃣ Clone Repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/rsamwilson2323-cloud/gst-billing.git
 ```
 
-## 2️⃣ Open Project
+### 2️⃣ Navigate to the Project Folder
 
 ```bash
 cd gst-billing
 ```
 
-## 3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 
 ```bash
 npm install
@@ -152,26 +150,17 @@ npm install
 
 ---
 
-# ▶️ Run the Application
+## ▶️ Running the Application
 
-## ✅ Windows (Recommended)
+### Option 1 – Windows Launcher
 
-Simply double-click
+Double-click:
 
 ```text
 start.bat
 ```
 
-The launcher automatically
-
-- ✅ Installs dependencies (if required)
-- ✅ Starts the local server
-- ✅ Displays Localhost URL
-- ✅ Displays LAN IP Address
-
----
-
-## Manual
+### Option 2 – Command Line
 
 ```bash
 npm run dev
@@ -185,97 +174,86 @@ npm start
 
 ---
 
-# 🌐 Access the Application
+## 🌐 Access the Application
 
-## Localhost
+### Localhost
 
 ```text
 http://localhost:5000
 ```
 
-## LAN
+### Local Network
 
 ```text
 http://YOUR-IP:5000
 ```
 
-Example
+Example:
 
 ```text
 http://192.168.1.100:5000
 ```
 
-Now access the software from any phone, tablet, or computer connected to the same Wi-Fi network.
+Access the software from any phone, tablet, or computer connected to the same Wi-Fi network.
 
 ---
 
-# 🖥️ Modules
+## 🖥️ Modules
 
-| Module | Description |
-|---------|-------------|
-| 👥 Customers | Customer Management |
-| 📦 Products | Product Catalog |
-| 🧾 Invoice Generator | GST Invoice Creation |
-| 📑 Invoice History | Previous Bills |
-| 📊 Dashboard | Business Analytics |
-| ⚙️ Settings | Billing Configuration |
-
----
-
-# 🌟 Highlights
-
-- 🧾 Professional GST Billing
-- 📦 Product Management
-- 👥 Customer Database
-- 💰 Automatic GST Calculation
-- 📊 Business Dashboard
-- 🖨️ Printable A4 Invoices
-- 🌐 Local Network Access
-- 📱 Mobile Friendly
-- ⚡ Fast Performance
-- 💾 Offline Data Storage
+| Module               | Description                |
+| -------------------- | -------------------------- |
+| 👥 Customers         | Customer Management        |
+| 📦 Products          | Product Management         |
+| 🧾 Invoice Generator | GST Invoice Creation       |
+| 📑 Invoice History   | View Previous Bills        |
+| 📊 Dashboard         | Sales & Business Analytics |
+| ⚙️ Settings          | Application Configuration  |
 
 ---
 
-# 💡 Applications
+## 🌟 Highlights
 
-- Retail Shops
-- Wholesale Businesses
-- Supermarkets
-- Grocery Stores
-- Electronics Shops
-- Medical Stores
-- Hardware Stores
-- Textile Businesses
-- Small & Medium Enterprises
+* 🧾 GST-compliant billing
+* 👥 Customer management
+* 📦 Product management
+* 💰 Automatic GST calculations
+* 🖨️ Printable A4 invoices
+* 📊 Business dashboard
+* 📱 Mobile responsive interface
+* 🌐 Local network access
+* 💾 Offline data storage
+* ⚡ Fast and lightweight
 
 ---
 
-# 📄 License
+## 💡 Applications
+
+* Retail Shops
+* Wholesale Businesses
+* Supermarkets
+* Grocery Stores
+* Medical Stores
+* Hardware Stores
+* Textile Shops
+* Electronics Stores
+* Small & Medium Enterprises
+
+---
+
+## 📄 License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Sam Wilson**
 
-🐙 GitHub  
-https://github.com/rsamwilson2323-cloud
+🐙 GitHub: https://github.com/rsamwilson2323-cloud
 
-💼 LinkedIn  
-https://www.linkedin.com/in/sam-wilson-14b554385
+💼 LinkedIn: https://www.linkedin.com/in/sam-wilson-14b554385
 
 ---
 
-<div align="center">
-
-## ⭐ If you found this project useful, don't forget to Star ⭐ the repository!
-
-### 🧾 GST Billing Software — Fast. Professional. GST Compliant.
-
-Made with ❤️ by **Sam Wilson**
-
-</div>
-````
+⭐ **If you found this project useful, don't forget to Star ⭐ the repository!**
